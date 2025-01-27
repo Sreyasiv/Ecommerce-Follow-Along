@@ -28,6 +28,7 @@ TECH-STACK:
 -Learning backend development with Node.js and Express allows you to set up a scalable and maintainable server-side architecture.
 
 
+#Milestone 2
 Login Page:
 
 Overview:-
@@ -59,3 +60,34 @@ React: For building the component structure.
 Tailwind CSS: For styling the component with utility classes.
 
 React Icons: For incorporating eye icons to toggle password visibility.
+
+# Milestone 3: Backend Setup and Organization
+
+## Learning Goals
+By the end of this milestone, we:
+- Organized backend code effectively using a structured folder hierarchy.
+- Set up a Node.js server to handle API requests.
+- Connected the application to MongoDB for data storage and management.
+- Implemented basic error handling for smoother server operation.
+- Updated this README file to track progress.
+
+## Key Features
+
+### Backend Folder Structure
+- Created folders for:
+  - `routes/`: Defined API endpoints.
+  - `controllers/`: Handled business logic.
+  - `models/`: Defined MongoDB schemas.
+  - `middlewares/`: Added reusable code.
+  - `utils/`: Helper functions.
+
+### Server Setup
+- Used Node.js and Express to create a server.
+- Configured it to listen on a port (e.g., 3000).
+
+### Database Connection
+- Integrated MongoDB for data storage.
+- Confirmed the connection.
+
+### Error Handling
+- Added clear error messages for debugging and user feedback.
