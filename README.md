@@ -140,3 +140,30 @@ Email addresses were validated to match a standard email format.
 Passwords were checked to meet security criteria (e.g., minimum length).
 
 Invalid inputs were restricted to prevent errors and ensure the backend received clean data.
+
+## Milestone 6: Backend Signup Endpoint Implementation
+
+### Overview
+
+In this milestone, we focused on developing the backend for the Signup page, ensuring that user data is securely stored in the database.
+
+### Learning Outcomes 
+
+By completing this milestone, we:
+
+Learned how to encrypt passwords before saving them.
+
+Stored complete user data securely in the database.
+
+### Key features:
+Encrypting the Password
+
+Used bcrypt to hash the user's password during signup.
+
+Stored the hashed password in the database instead of plain text.
+
+Storing Complete User Data
+
+Saved all user details (e.g., name, email, etc.) securely in the database.
+
+Ensured the password remained encrypted.
