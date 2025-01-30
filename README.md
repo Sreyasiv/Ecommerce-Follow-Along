@@ -33,7 +33,7 @@ Database: MongoDB — for efficient storage and retrieval of product, user, and 
 This project aims to simulate the development of a real-world e-commerce platform while giving hands-on experience with the MERN stack. It’s a great way to understand the interplay between the front-end, back-end, and database, while solving a common user problem: making online shopping simple and enjoyable.
 
 
-# Milestone 2: Project Setup and Login Page:
+## Milestone 2: Project Setup and Login Page:
 
 ### Description:
 
@@ -57,7 +57,7 @@ Login Page: A functional login page for users to access the platform securely.
 
 Styling: Used Tailwind CSS to style the application with modern, responsive design principles.
 
-# Milestone 3: Project Setup for Backend
+## Milestone 3: Project Setup for Backend
 
 ### Description:
 
@@ -83,7 +83,7 @@ Database Connection: Successfully integrated MongoDB for data management.
 
 Error Handling: Added basic error handling for smoother server operation.
 
-# Milestone 4: Creating User Model and Controller#
+## Milestone 4: Creating User Model and Controller
 
 ### Description:
 
@@ -105,3 +105,38 @@ User Controller: Managed server-side operations related to users, like handling 
 File Uploads: Enabled file upload functionality, allowing users to upload profile pictures that are stored on the server.
 
 
+## Milestone 5: Sign-Up Page Implementation
+
+### Overview
+
+In this milestone, we focused on enhancing the frontend by building the Sign-Up Page and setting up routes to handle the user sign-up process smoothly.
+
+### Learning Outcomes 🎯
+
+By completing this milestone, we:
+
+Created the frontend UI for users to register by filling out their details.
+
+Implemented form validation to ensure user inputs (like email and password) met the required criteria before submission.
+
+### Sign-Up Page
+
+The Sign-Up page allowed users to enter their details to create an account. This page included fields for:
+
+- Name
+
+- Email
+
+- Password
+
+It provided users with a structured way to submit their information, which was then sent to the server for processing.
+
+### Form Validation
+
+Form validation was implemented to ensure users entered correct and properly formatted information.
+
+Email addresses were validated to match a standard email format.
+
+Passwords were checked to meet security criteria (e.g., minimum length).
+
+Invalid inputs were restricted to prevent errors and ensure the backend received clean data.
