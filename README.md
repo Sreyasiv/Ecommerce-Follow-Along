@@ -18,8 +18,6 @@ Order Management: Track orders, view order history, and handle payments securely
 
 Admin Panel: Manage products, orders, and users with administrative controls.
 
-
-
 ### Tech Stack:
 Front-End: React — for building an interactive and responsive user interface.
 
@@ -167,3 +165,45 @@ Storing Complete User Data
 Saved all user details (e.g., name, email, etc.) securely in the database.
 
 Ensured the password remained encrypted.
+
+## Milestone 7:
+
+### Overview
+
+This milestone focused on implementing a backend endpoint for user login. The main objectives were to validate user credentials and verify the encrypted password stored in the database.
+
+### Steps for Milestone 7 
+
+1. Created Login Endpoint:
+
+Accepted user credentials (email/username and password).
+
+Retrieved the corresponding user from the database.
+
+2. Validated Password:
+
+Used bcrypt to hash the entered password.
+
+Compared it with the stored hashed password for authentication.
+
+## Milestone 8: Product Card Component and Homepage
+
+### Overview
+
+This milestone focused on creating a frontend card component for products and designing a homepage to display these cards for each product.
+
+### Learning Goals:
+
+Learned how to create a card component.
+
+Learned how to display those cards on the products page.
+
+Created a reusable card component for displaying product details.
+
+Used props to pass product information dynamically.
+
+Implemented array mapping to render multiple product cards.
+
+Designed a structured homepage layout usinG TAILWIND CSS.
+
+
