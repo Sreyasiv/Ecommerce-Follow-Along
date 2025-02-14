@@ -226,6 +226,20 @@ Learn how to take multiple images as input
 - Built a POST endpoint to receive product data
 - Validated and stored the product details in MongoDB
 
+## MIlestone 11:
+
+ ### Overview
+
+ In this milestone, we have made our home page dynamic by fetching product data from MongoDB and displaying it using our product card component. This enhances our application's functionality by integrating backend and frontend components effectively.
+
+### Key Features
+
+- API endpoint to fetch all product data from MongoDB.
+
+- Frontend function to retrieve and display data.
+
+- Dynamic rendering of products using the product card component.
+
 
 
 
