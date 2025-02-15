@@ -1,7 +1,7 @@
 import React from 'react'
 import "./App.css";
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import {LoginPage,SignupPage,Home,CreateProduct} from "./routes/routes.js";
+import {LoginPage,SignupPage,Home,CreateProduct,MyProducts} from "./routes/routes.js";
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
         <Route path='/signup' element={<SignupPage/>}/>
         <Route path='/' element={<Home/>}/>
         <Route path='/create' element={<CreateProduct/>}/>
+        <Route path='/myproducts' element={<MyProducts/>}/>
       </Routes>
       </BrowserRouter>
     </div>

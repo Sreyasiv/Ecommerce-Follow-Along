@@ -1,5 +1,5 @@
 const express = require('express');
-const Product = require('../model/product');
+const Product = require('../model/Product');
 const User = require('../model/user');
 const router = express.Router();
 const { pupload } = require("../multer");
@@ -89,4 +89,24 @@ router.get('/get-products', async (req, res) => {
         res.status(500).json({ error: 'Server error. Could not fetch products.' });
     }
 });
+router.get('/my-products', async (req, res) => {
+    const { email } = req.query;
+    try {
+        const products = await Product.find({ email });
+        const productsWithFullImageUrl = products.map(product => {
+            if (product.images && product.images.length > 0) {
+                product.images = product.images.map(imagePath => {
+                    return imagePath;
+                });
+            }
+            return product;
+        });
+        res.status(200).json({ products: productsWithFullImageUrl });
+    } catch (err) {
+        console.error(' Server error:', err);
+        res.status(500).json({ error: 'Server error. Could not fetch products.' });
+    }
+}
+);
+
 module.exports = router;
