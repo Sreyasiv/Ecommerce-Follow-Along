@@ -226,7 +226,7 @@ Learn how to take multiple images as input
 - Built a POST endpoint to receive product data
 - Validated and stored the product details in MongoDB
 
-## MIlestone 11:
+## Milestone 11:
 
  ### Overview
 
@@ -239,6 +239,36 @@ Learn how to take multiple images as input
 - Frontend function to retrieve and display data.
 
 - Dynamic rendering of products using the product card component.
+
+## Milestone 12 - My Products Page
+
+### Overview
+
+In this milestone, we will create a My Products page that displays all products added by the logged-in user. We will achieve this by writing a backend endpoint that fetches products from MongoDB based on the user's email and dynamically rendering them in the frontend using a product card component.
+
+### Key Features
+
+- Backend Endpoint: Fetches all products associated with the logged-in user's email.
+
+- Frontend Data Fetching: Calls the backend API to retrieve the user's products.
+
+- Dynamic Rendering: Displays products dynamically using the existing product card component.
+
+- Filtering Data: Understand how to filter database records based on constraints (user email).
+
+### Steps Implemented
+
+#### Backend:
+
+- Created an endpoint to fetch products from MongoDB where email matches the logged-in user.
+
+- Used Express and Mongoose to query and return the filtered data.
+
+#### Frontend:
+
+- Wrote a function to call the backend API and fetch the user’s products.
+
+- Rendered the product data dynamically using the existing product card component.
 
 
 
