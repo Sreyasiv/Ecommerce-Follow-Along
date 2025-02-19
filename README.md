@@ -270,6 +270,70 @@ In this milestone, we will create a My Products page that displays all products 
 
 - Rendered the product data dynamically using the existing product card component.
 
+## Milestone 13 - Edit Uploaded Products
+
+### 📌 Overview
+
+In this milestone, we implemented functionality to edit previously uploaded products. This includes adding an edit button to each product card and creating a backend endpoint to update product details inside a MongoDB database.
+
+###🎯 Learning Goals
+
+- By completing this milestone, we learned:
+
+- How to write an API endpoint to update existing data in MongoDB.
+
+- How to auto-fill a form with existing data for editing.
+
+- How to update and save the modified details back to the database.
+
+### 🛠 Steps Implemented
+
+#### Backend: Update Product Endpoint
+
+- Created an Express.js endpoint to handle PUT requests for updating product details in MongoDB.
+
+- Used Mongoose to find the product by its ID and update the details.
+
+#### Frontend: Edit Button & Auto-fill Form
+
+- Added an "Edit" button to each product card.
+
+- When clicked, it pre-fills a form with the product's existing details.
+
+- Allowed users to modify the details and save changes.
+
+## Milestone 14 - Delete Product Functionality
+
+### 📌 Overview
+
+In this milestone, we implemented functionality to delete products. This includes adding a delete button to each product card and creating a backend endpoint to remove a product from the MongoDB database using its ID.
+
+### 🎯 Learning Goals
+
+- By completing this milestone, we learned:
+
+- How to write an API endpoint to delete a product using its ID in MongoDB.
+
+- How to trigger a delete action from the frontend and communicate with the backend.
+
+- How to ensure a seamless user experience when deleting a product.
+
+### 🛠 Steps Implemented
+
+#### Backend: Delete Product Endpoint
+
+- Created an Express.js endpoint to handle DELETE requests for removing products from MongoDB.
+
+- Used Mongoose to find the product by its ID and delete it.
+
+#### Frontend: Delete Button
+
+- Added a "Delete" button to each product card.
+
+- When clicked, it sends the product ID to the backend endpoint.
+
+- Removed the product from the UI upon successful deletion.
+
 
 
 
