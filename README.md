@@ -335,6 +335,63 @@ In this milestone, we implemented functionality to delete products. This include
 - Removed the product from the UI upon successful deletion.
 
 
+## Milestone -15
+### 📌 Overview
+In this milestone, you'll learn how to create a Navbar component in React and reuse it across multiple pages to navigate smoothly between different parts of your application.
+
+### 🎯 Learning Goals
+By the end of this milestone, you will understand:
+
+How to create a Navbar component in React.
+
+How to reuse the Navbar component across multiple pages.
+
+How to make the Navbar responsive for all screen sizes.
+
+How to enable smooth navigation between pages using React.
+
+### 🔑 Key Features
+A Navbar component with navigation links to:
+- Home
+
+- My Products
+
+- Add Product
+
+- Cart
+
+- Reusable Navbar on every page.
+
+- Responsive design for all screen sizes.
+
+- Seamless navigation between pages.
+
+## Milestone 16 - Product Info Page
+
+### Overview 🌟
+
+In this milestone, I have created a Product Info Page that displays detailed product information, allows users to select the desired quantity, and provides an Add to Cart button.
+
+### Learning Goals 🎯
+
+By completing this milestone, I learned:
+
+How to create a new page to display product information.
+
+How to add a quantity selector.
+
+How to implement an Add to Cart button.
+
+### Features 🔑
+
+Display detailed product information.
+
+Option to choose product quantity.
+
+Button to Add to Cart.
+
+Navigation to this page from the Product List.
+
 
 
 
