@@ -42,7 +42,28 @@ const productSchema = new mongoose.Schema(
     },
     {
         timestamps: true,
+    },
+    {
+
+    
+    cart: [
+        {
+            productid: {
+                type: String,
+                required: [true, "Please provide the product ID"],
+                unique: true,
+            },
+            quantity: {
+                type: Number,
+                required: [true, "Please provide the quantity"],
+                min: [0, "Quantity cannot be negative"],
+            },
+        },
+    ],
+
     }
+
+
 );
 
 module.exports = mongoose.model("Product", productSchema);

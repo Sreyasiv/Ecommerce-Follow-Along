@@ -393,7 +393,41 @@ Button to Add to Cart.
 Navigation to this page from the Product List.
 
 
+## Milestone 17 - Add Products to Cart 🛒
+
+### Learning Goals 🎯
+
+By the end of this milestone, you will:
+
+Edit the User Schema to store cart products.
+
+Write an API endpoint to receive product details and store them in the database.
+
+### Steps for Milestone 17 📝
+
+1. Create Cart Schema
+
+Define the Cart Schema to store product information.
+
+Link cart items to the User Schema.
+
+2. Write the Endpoint
+
+Create an endpoint to receive product details.
+
+Store the product in the User's cart inside the database.
 
 
+## Milestone 18 - Cart Page Backend Endpoint
 
+### Description
+In this milestone, we have created a **Backend Endpoint** to fetch all products inside the user's cart based on their email ID. This functionality helps display cart items on the cart page.
 
+### Learning Goals 🎯
+- Create an endpoint to receive requests from the cart page.
+- Fetch all products from the cart for the logged-in user using their email ID.
+
+### Features Implemented
+- API Endpoint to fetch cart items.
+- Filter cart products using user email.
+- Connect backend with the cart page.
