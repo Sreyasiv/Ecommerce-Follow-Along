@@ -473,7 +473,7 @@ In this milestone, we have created a **Backend Endpoint** to fetch all products 
 
 - Display profile photo, name, email, and addresses.
 
-- Features Implemented ✅
+### Features Implemented ✅
 
 #### Frontend:
 
