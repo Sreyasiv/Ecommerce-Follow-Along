@@ -526,3 +526,40 @@ In Milestone 22, we will create a backend endpoint to store user addresses in a 
 - Ensure data persistence by storing the updated user profile in the database.
 - Enhance user profiles with multiple addresses.
 
+## Milestone 23: Place Order & Address Selection
+
+### Overview
+
+In Milestone 23, we implemented the "Place Order" functionality in the frontend and defined the product schema for orders in the backend. This milestone helps in understanding how to handle order placement and address selection efficiently.
+
+### Features Implemented
+
+#### Frontend
+
+- Place Order Button: Added a button inside the cart page to initiate the order placement process.
+
+- Select Address Page: Created a new page to display all available addresses and allow users to select a delivery address.
+
+#### Backend
+
+- Order Schema: Defined a Mongoose schema to store order details.
+
+- Get Addresses Endpoint: Implemented an API endpoint to fetch all addresses       associated with a user.
+
+## Milestone 24: Order Confirmation Page
+
+### Overview
+
+In Milestone 24, we implemented the order confirmation page in the frontend, where users can review their order details before placing it. This milestone focuses on enhancing the user experience in the order placement process.
+
+### Features Implemented
+
+#### Frontend
+
+- Order Confirmation Page: Created a page to display the products being ordered.
+
+- Selected Address Display: Showcased the user's chosen delivery address.
+
+- Total Price Calculation: Displayed the total value of the cart.
+
+- Final Place Order Button: Added a button at the bottom to confirm and place the order.
