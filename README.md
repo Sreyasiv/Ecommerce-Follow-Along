@@ -588,5 +588,34 @@ This milestone focuses on creating a backend endpoint to retrieve all orders of 
 - Returns the user's order details in the response.
 
 
+## Milestone 27-My Orders Page
 
+### Overview
 
+The My Orders page allows users to view all their previous orders. It fetches order details from the backend by sending a GET request to the /my-orders endpoint with the user's email as a query parameter.
+
+### Features
+
+- Fetches user orders from the backend.
+
+- Displays the list of orders.
+
+- Adds a "My Orders" link in the navigation bar for easy access
+
+## Milestone 28
+
+### Overview
+
+The My Orders page allows users to view all their previous orders. It fetches order details from the backend by sending a GET request to the /my-orders endpoint with the user's email as a query parameter. Additionally, users can cancel their placed orders.
+
+### Features
+
+- Fetches user orders from the backend.
+
+- Displays the list of orders.
+
+- Allows users to cancel orders.
+
+- Hides the cancel button if the order is already canceled.
+
+- Adds a "My Orders" link in the navigation bar for easy access.
