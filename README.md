@@ -619,3 +619,61 @@ The My Orders page allows users to view all their previous orders. It fetches or
 - Hides the cancel button if the order is already canceled.
 
 - Adds a "My Orders" link in the navigation bar for easy access.
+
+## Milestone 29: Integrating PayPal Payment Gateway
+
+### Overview
+
+In this milestone, we have set up the foundation for integrating an online payment gateway using the PayPal API. This feature enhances the application by providing users with an option to make secure online payments.
+
+### Features
+
+- PayPal Sandbox Setup: Created a PayPal Developer account and configured sandbox accounts.
+
+- Client ID Storage: Retrieved and saved the PayPal sandbox client ID.
+
+- Payment Options: Added radio buttons on the order confirmation page to select between Cash on Delivery (COD) and Online Payment.
+
+- Dynamic PayPal Button Display: The PayPal payment button is displayed when the user selects the online payment option.
+
+This milestone sets up the groundwork for integrating and using PayPal payment buttons in the next milestone.
+
+## Milestone 30: Implementing PayPal Online Payments
+
+### Overview
+
+This milestone continues from Milestone 29, where we set up a PayPal account and retrieved the UserID. Now, we focus on implementing online payments using the PayPal API in our application.
+
+### Features
+
+- PayPal API Integration: Implemented online payments using the PayPal API and client key.
+
+- React PayPal Package: Installed and used react-paypal-js to integrate PayPal payment options.
+
+- PayPalScriptProvider: Utilized this component to display online payment methods like credit and debit card options.
+
+This milestone ensures a seamless and secure online payment experience for users.
+
+## Milestone 31: Implementing Global State Management with Redux
+
+### Overview
+
+In this milestone, we have integrated Redux for global state management in our application. This helps maintain a centralized state, improving data consistency and management across components.
+
+### Features
+
+- Redux Store Setup: Configured a Redux store to manage global states.
+
+- User Email State Management: Stored user email in the global state using Redux.
+
+### Folder Structure:
+
+- Created a store folder containing store.js and userActions.js.
+
+- Redux Store Configuration:
+
+- Implemented store.js to configure the Redux store with a userReducer for managing email state.
+
+- Created setEmail function in userActions.js to update the email state globally.
+
+- Provider Setup: Wrapped the App component with the Redux Provider in index.js to enable state access throughout the application.
